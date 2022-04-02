@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Worker Town",
+    "type": "IDO",
+    "website": "https://www.worker.town/",
+    "chain": "bsc",
+    "end_date": "2022-17-03 00:00:00",
+    "whitepaper_link": "https://whitepaper.worker.town/",
+    "href": "https://whitelist.worker.town/"
+  },
+  {
+    "name": "Drunk Robots",
+    "type": "IDO",
+    "website": "https://drunk-robots.com/",
+    "chain": "bsc",
+    "end_date": "2022-07-03 00:00:00",
+    "whitepaper_link": "",
+    "href": "https://gleam.io/psDOc/whitelist-for-metal-ido"
+  },
+  {
+    "name": "MetaPlane",
+    "type": "IDO",
+    "website": "https://www.metaplane.us/",
+    "chain": "bsc",
+    "end_date": "2022-04-02 00:00:00",
+    "whitepaper_link": "https://t-l-c.gitbook.io/metaplane-whitepaper/",
+    "href": "https://gleam.io/oTISF/metaplane-whitelist"
+  },
+  {
+    "name": "STMAN (Stickman's Battleground)",
+    "type": "IDO",
+    "website": "https://t-l-c.gitbook.io/metaplane-whitepaper/",
+    "chain": "bsc",
+    "end_date": "2022-09-03 00:00:00",
+    "whitepaper_link": "https://stmangame.gitbook.io/stickman-game/",
+    "href": "https://t-l-c.gitbook.io/metaplane-whitepaper/"
+  }
+]
