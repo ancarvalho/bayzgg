@@ -16,6 +16,7 @@ export function PartnerCard({ partners }: PartnerCardProps) {
           className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover rounded-md"
           href={`${partners.href}`}
           target="_blank"
+          rel="noreferrer" 
           style={{ backgroundImage: `url(${partners.image_url})` }}>
         </a>
       </div>

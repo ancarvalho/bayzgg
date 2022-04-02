@@ -9,7 +9,10 @@ type CourseCardProps = {
 
 export function CourseCard({ course }: CourseCardProps) {
   return (
-    <Link href={course.href}>
+    <Link
+      href={course.href}
+      passHref
+    >
       <div className="w-full h-[200px]">
         <div
           className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover rounded-md"

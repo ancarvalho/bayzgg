@@ -21,7 +21,11 @@ export function DefaultCard({ card }: DefaultCardProps) {
             <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">
               {card.type}
             </p>
-            <a href={card.website} target="_blank">
+            <a
+              href={card.website}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="flex items-center gap-1">
                 <svg
                   className="h-5 w-5 SvgTheme"
@@ -59,7 +63,11 @@ export function DefaultCard({ card }: DefaultCardProps) {
               </p>
             </div>
 
-            <a href={card.whitepaper_link} target="_blank">
+            <a
+              href={card.whitepaper_link}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="flex items-center gap-1">
                 <svg
                   className="h-4 w-4 SvgTheme"
@@ -82,7 +90,7 @@ export function DefaultCard({ card }: DefaultCardProps) {
             <a
               href={card.href}
               target="_blank"
-              className=""
+              rel="noreferrer"
             >
               <div className="w-full CardTextTheme bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 IDO Link

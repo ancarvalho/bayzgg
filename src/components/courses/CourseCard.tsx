@@ -9,7 +9,10 @@ type CourseCardProps = {
 export function CourseCard({ card }: CourseCardProps) {
   return (
     <>
-      <Link href={card.href}>
+      <Link
+        href={card.href}
+        passHref
+      >
 
         <div className="py-4">
           <div className="w-full pt-[54%] sm:pt-[56%] mb-[24px] bg-center bg-cover rounded-[16px]" style={{ backgroundImage: `url(${card.image_url})` }}>

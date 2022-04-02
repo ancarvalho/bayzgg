@@ -9,7 +9,10 @@ type NewsCardProps = {
 
 export function NewsCard({ card }: NewsCardProps) {
   return (
-    <Link href={card.href}>
+    <Link
+      href={card.href}
+      passHref
+    >
       <div
         className="relative w-full h-[200px]  duration-300 ease-in-out transition-transform transform hover:-translate-y-2"
       >

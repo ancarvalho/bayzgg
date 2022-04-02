@@ -11,7 +11,10 @@ type HighlightCardProps = {
 export function HighlightCard({ highlight, heights }: HighlightCardProps) {
   return (
 
-    <Link href={highlight.href}>
+    <Link
+      href={highlight.href}
+      passHref
+    >
       <div
         className={`relative w-full ${heights} rounded-md overflow-hidden bg-cover bg-center group`}
         style={{ backgroundImage: `url(${highlight.image_url})` }}

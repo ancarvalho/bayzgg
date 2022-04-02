@@ -10,7 +10,10 @@ type LastNewsProps = {
 export function LastNews({ card }: LastNewsProps) {
   return (
     <>
-      <Link href={card.href}>
+      <Link 
+      href={card.href} 
+      passHref
+      >
         <div className="group relative flex flex-row h-[130px] ">
           <div className="ml-44 sm:ml-[215px] pt-1">
 

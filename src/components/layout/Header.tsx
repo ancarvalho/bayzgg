@@ -56,7 +56,10 @@ export function Header() {
             <nav className="relative  flex items-center justify-between sm:h-10 lg:justify-center" aria-label="Global">
               <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
                 <div className="flex items-center justify-between w-full lg:w-auto">
-                  <Link href="/">
+                  <Link
+                    href="/"
+                    passHref
+                  >
                     <div >
                       <span className="sr-only">Bayz</span>
                       {/* Bayz Logo */}
@@ -122,7 +125,10 @@ export function Header() {
             >
               <div className="rounded-lg shadow-md bg-blue-900 ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                  <Link href="/">
+                  <Link
+                    href="/"
+                    passHref
+                  >
                     <div>
                       <span className="sr-only">Bayz</span>
                       <svg
@@ -153,7 +159,11 @@ export function Header() {
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   {navigation.map((item) => (
-                    <Link href={item.href} key={item.href}>
+                    <Link
+                      href={item.href}
+                      key={item.href}
+                      passHref
+                    >
                       <a key={item.name} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-blue-800">
                         {item.name}
                       </a>

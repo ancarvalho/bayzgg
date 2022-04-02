@@ -15,6 +15,7 @@ export function TableItem({ item }: TableItemProps) {
           <a
             href={item.website}
             target="_blank"
+            rel="noreferrer"
           >
             <div className="flex items-center gap-1">
               <svg
@@ -49,6 +50,7 @@ export function TableItem({ item }: TableItemProps) {
           <a
             href={item.whitepaper_link}
             target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-1">
 
             <svg
@@ -68,7 +70,11 @@ export function TableItem({ item }: TableItemProps) {
 
         </td>
         <td className="p-5 border-b TableItemBgTheme">
-          <a href={item.href}>
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noreferrer"
+          >
 
             <div className="w-full CardTextTheme bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Link

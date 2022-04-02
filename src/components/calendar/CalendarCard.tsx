@@ -30,6 +30,7 @@ export function CalendarCard({ card }: CalendarCardProps) {
             <a
               href={`https://calendar.google.com/calendar/u/0/r/eventedit?text=${card.description}&dates=${dateISO}/${dateISO}&details=${card.project_name}&location&trp=false&sprop&sprop=name:`}
               target="_blank"
+              rel="noreferrer"
               className="flex justify-center rounded-t-lg items-center w-2/5 CardCalendarBgTheme hover:bg-blue-600">
               <div className="flex items-center">
                 <div className="CardTextTheme font-medium text-semibold text-center uppercase">
