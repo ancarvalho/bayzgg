@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next"
+import Head from "next/head"
 import { useState } from "react"
 import { CourseCard } from "../../components/courses/CourseCard"
 import { coursesData } from "../../data"
@@ -35,6 +36,13 @@ const Courses = ({ courses }: CoursesProps) => {
 
   return (
     <>
+      <Head>
+        <title>Cursos - Portal BAZY</title>
+        <meta
+          name="description"
+          content="Meta description for the cursos page"
+        />
+      </Head>
       <div className="BackgroundTheme">
         <div className="max-w-[1136px] mx-auto">
 

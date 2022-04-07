@@ -8,6 +8,7 @@ import { CourseModel } from '../models/CourseModel'
 import { NewsModel } from '../models/NewsModel'
 import { PartnerModel } from '../models/PartnerModel'
 import { GameModel } from '../models/GameModel'
+import Head from 'next/head'
 
 type HomeProps = {
   highlights: HighlightModel[];
@@ -22,6 +23,13 @@ const Home = ({ highlights, news, partners, games, coursesHighlights }: HomeProp
 
   return (
     <>
+      <Head>
+        <title>Início - Portal BAZY</title>
+        <meta
+          name="description"
+          content="Meta description for the home page"
+        />
+      </Head>
       <div className="BackgroundTheme">
         <div className="relative pt-5 pb-20 px-4 max-w-screen-2xl mx-auto">
           {/* Banner */}

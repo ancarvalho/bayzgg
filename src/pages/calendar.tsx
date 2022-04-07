@@ -1,8 +1,9 @@
 import { GetStaticProps } from "next"
+import Head from "next/head"
 import { CalendarDay } from "../components/calendar/CalendarDay"
 import { calendarData } from "../data"
 import { EventModel } from "../models/EventModel"
-import { CalendarIcon } from '@heroicons/react/outline';
+
 
 type CalendarProps = {
   events: EventModel[]
@@ -26,6 +27,13 @@ const Calendar = ({ events }: CalendarProps) => {
 
   return (
     <>
+      <Head>
+        <title>Calendário - Portal BAZY</title>
+        <meta
+          name="description"
+          content="Meta description for the calendar page"
+        />
+      </Head>
       <div className="BackgroundTheme">
         <div className="py-4 max-w-[1136px] mx-auto">
           <div className="flex flex-rows items-center pt-4 pb-8 pl-4">

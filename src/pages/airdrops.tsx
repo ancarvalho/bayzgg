@@ -5,6 +5,7 @@ import { Table } from "../components/shared/Table"
 import { airdropsData } from "../data"
 import { DefaultModel } from "../models/DefaultModel"
 import { ViewListIcon, ViewGridIcon } from '@heroicons/react/outline';
+import Head from "next/head"
 
 
 type AirdropsProps = {
@@ -34,6 +35,13 @@ const Airdrops = ({ airdrops }: AirdropsProps) => {
 
   return (
     <>
+      <Head>
+        <title>Airdrops - Portal BAZY</title>
+        <meta
+          name="description"
+          content="Meta description for the Airdrops page"
+        />
+      </Head>
       <div className="BackgroundTheme">
 
         <div className="px-4 py-4 max-w-[1136px] mx-auto">

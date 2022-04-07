@@ -1,5 +1,6 @@
 import { ViewGridIcon, ViewListIcon } from "@heroicons/react/outline"
 import { GetStaticProps } from "next"
+import Head from "next/head"
 import { useState } from "react"
 import { DefaultCards } from "../components/shared/DefaultCards"
 import { Table } from "../components/shared/Table"
@@ -34,6 +35,13 @@ const Whitelists = ({ whitelists }: WhitelistsProps) => {
 
   return (
     <>
+     <Head>
+        <title>Whitelists - Portal BAZY</title>
+        <meta
+          name="description"
+          content="Meta description for the Whitelists page"
+        />
+      </Head>
       <div className="BackgroundTheme">
 
         <div className="py-4 max-w-[1136px] mx-auto">
