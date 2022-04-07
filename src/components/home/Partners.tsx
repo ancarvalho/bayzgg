@@ -30,7 +30,7 @@ export function Partners({ partners }: PartnersProps) {
 
           {
             partners.map((i) =>
-              <PartnerCard key={`Partner-${i.image_url}`} partners={i} />
+              <PartnerCard key={`Partner-${Math.random()*451}`} partners={i} />
 
             )
           }
