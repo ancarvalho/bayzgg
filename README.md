@@ -11,7 +11,7 @@
 
 ## Improvements
 
-- [x] Dart Theme
+- [x] Dark Theme
 
 - [x] Courses Page Redesign
 
