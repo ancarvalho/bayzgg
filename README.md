@@ -1,4 +1,4 @@
-## Inpirated by [Bayz Portal](bayz.gg)
+## Inpirated by [Bayz Portal](https://bayz.gg)
 
   
 
